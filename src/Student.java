@@ -16,6 +16,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        System.out.println("номер билета должен быть уникальным"); // (English) id must be unique
 
         Student student = (Student) o;
         // here we check if id is the same for different students than only first student id returns

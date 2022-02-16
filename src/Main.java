@@ -33,6 +33,7 @@ public class Main {
                     String group = parts[1];
                     String studentId = parts[2];
                     Student student = new Student(name, group, studentId); // adding a student to the list
+
                     students.add(student);
                 }
 
